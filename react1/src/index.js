@@ -1,1 +1,1 @@
-import "./code/4.compents.js"
+import "./code2/3.control.js"
