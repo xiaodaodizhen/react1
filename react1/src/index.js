@@ -1,1 +1,1 @@
-import "./code2/3.control.js"
+import "./code2/6.newLifeCycle.js"
