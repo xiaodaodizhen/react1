@@ -83,8 +83,8 @@ render(<Clock name="zf" />, window.root);
 
 /*
  * 组件的两个数据源，都可以导致页面刷新
- * 1.props(外部传入)
- * 2.state(自己特有)
+ * 1.props(外部传入)：具有可读性，和不变性，只能通过外部传入的新的props来重新渲染组件。否则子组件的props 以及展现形式不会边
+ * 2.state(自己特有)：数据状态，可以被修改,是组件的私有属性，不能被外部访问和修改，是通过setState()
  * 
- * 
+ * 备注：setState 是通过enqueueUpdate 方法来更新数据的
  */
